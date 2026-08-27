@@ -1,5 +1,6 @@
 # Estudos
 Repositório destinado ao registro dos meus exercícios, práticas e atividades durante meus estudos.
+
 O conteúdo está organizado entre os estudos realizados no [Curso em Vídeo](http://www.cursoemvideo.com/) e nas disciplinas da [Universidade de Mogi das Cruzes (UMC)](https://www.umc.br/).
 
 ## Curso em Vídeo
