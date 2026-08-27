@@ -1,0 +1,7 @@
+# Acesso por índice
+# Nome: Italo Andrade Costa
+# 08/06/2026 - Versão 1.0
+
+Minha_Lista = ["Ana","Carlos","Beatriz","Eduardo","Sérgio"]
+
+print(Minha_Lista[2])
