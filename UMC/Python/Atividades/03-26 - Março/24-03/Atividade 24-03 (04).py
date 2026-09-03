@@ -1,3 +1,7 @@
+# Percentual de Aumento de Salário
+# Nome: Italo Andrade Costa
+# 24/03/2026 - Versão 1.0
+
 sal1 = float(input('Digite o salário do funcionário: R$'))
 perc = int(input('Digite o percentual de aumento: '))
 aum = sal1*(perc/100)

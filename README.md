@@ -31,6 +31,11 @@ Conteúdos e atividades desenvolvidos durante minha graduação em Análise e De
 - Estilização de páginas web
 - Exercícios e Práticas
 
+### Banco de Dados
+- Modelagem de dados
+- Diagramas e relacionamentos
+- Exercícios e práticas com bancos de dados
+
 ## Objetivo
 Utilizar este repositório como um registro de minha evolução na área de tecnologia, reunindo conhecimentos, práticas e exercícios realizados ao longo da minha formação.
 

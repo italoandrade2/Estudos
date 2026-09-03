@@ -1,3 +1,7 @@
+# Venda de Convites
+# Nome: Italo Andrade Costa
+# 24/03/2026 - Versão 1.0
+
 custo = float(input('Digite o custo do espetáculo: R$'))
 valor = float(input('Digite o valor do convite: R$'))
 quantia = int(custo/valor)

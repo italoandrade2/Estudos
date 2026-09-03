@@ -1,3 +1,7 @@
+# Consumo de Ração
+# Nome: Italo Andrade Costa
+# 24/03/2026 - Versão 1.0
+
 pesokg = int(input('Digite o peso da ração em kg: '))
 pesog = pesokg*1000
 

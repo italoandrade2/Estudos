@@ -1,3 +1,7 @@
+# Desconto de Produto
+# Nome: Italo Andrade Costa
+# 12/03/2026 - Versão 1.0
+
 prod = float(input("Digite o valor do produto: R$"))
 desc = int(input("Digite o valor do desconto: "))
 desconto = prod*(desc/100)

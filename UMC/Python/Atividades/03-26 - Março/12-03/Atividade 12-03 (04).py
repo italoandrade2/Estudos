@@ -1,3 +1,7 @@
+# Cálculo de Lucro
+# Nome: Italo Andrade Costa
+# 12/03/2026 - Versão 1.0
+
 valor = float(input("Digite o valor do produto: R$"))
 custo = float(input("Digite o custo do produto: R$"))
 lucro = valor-custo

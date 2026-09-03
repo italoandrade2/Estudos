@@ -1,3 +1,7 @@
+# Controle de Notas
+# Nome: Italo Andrade Costa
+# 09/06/2026 - Versão 1.0
+
 notas = []
 
 total_notas = 0

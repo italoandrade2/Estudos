@@ -1,3 +1,7 @@
+# Pagamento de Contas
+# Nome: Italo Andrade Costa
+# 24/03/2026 - Versão 1.0
+
 salario = float(input('Digite o salário: R$'))
 conta1 = float(input('Digite o valor da primeira conta: R$'))
 conta2 = float(input('Digite o valor da segunda conta: R$'))

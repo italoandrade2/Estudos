@@ -1,3 +1,7 @@
+# Cálculo de Salário
+# Nome: Italo Andrade Costa
+# 24/03/2026 - Versão 1.0
+
 horas = int(input('Digite a quantia de horas trabalhadas: '))
 salmin = 1621.00
 horatrab = salmin/2

@@ -1,3 +1,7 @@
+# Cálculo de Produtos
+# Nome: Italo Andrade Costa
+# 12/03/2026 - Versão 1.0
+
 valor = float(input("Digite o valor do produto: R$"))
 prod = int(input("Digite a quantia de produtos: "))
 

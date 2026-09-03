@@ -1,3 +1,7 @@
+# Cálculo de Idade
+# Nome: Italo Andrade Costa
+# 24/03/2026 - Versão 1.0
+
 ano1 = int(input('Digite seu ano de nascimento: '))
 ano2 = int(input('Digite o ano atual: '))
 atual = ano2-ano1

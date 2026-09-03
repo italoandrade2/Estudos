@@ -1,3 +1,7 @@
+# Controle de Estoque
+# Nome: Italo Andrade Costa
+# 09/06/2026 - Versão 1.0
+
 estoque = 5
 
 print(f'Estoque atual: {estoque}\n')

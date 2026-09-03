@@ -1,3 +1,7 @@
+# Cálculo de Iluminação
+# Nome: Italo Andrade Costa
+# 24/03/2026 - Versão 1.0
+
 larg = int(input('Digite a largura do cômodo: '))
 alt = int(input('Digite a altura do cômodo: '))
 area = larg*alt
