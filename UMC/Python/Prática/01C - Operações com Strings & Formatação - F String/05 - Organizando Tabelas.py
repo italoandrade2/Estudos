@@ -1,3 +1,7 @@
+# Organizando Tabelas
+# Nome: Italo Andrade Costa
+# 05/03/2026 - Versão 1.0
+
 a = ''
 var1 = 'Muito Grande'
 var2 = 'paralelepípedo'

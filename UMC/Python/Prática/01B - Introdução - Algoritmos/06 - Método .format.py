@@ -1,3 +1,7 @@
+# Usando o método .format
+# Nome: Italo Andrade Costa
+# 03/03/2026 - Versão 1.0
+
 v1 = float(input("Digite o primeiro valor: "))
 v2 = float(input("Digite o segundo valor: "))
 

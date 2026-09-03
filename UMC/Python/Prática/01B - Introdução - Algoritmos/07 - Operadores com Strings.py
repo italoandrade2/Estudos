@@ -1,3 +1,7 @@
+# Operadores "+" e "*" com strings
+# Nome: Italo Andrade Costa
+# 03/03/2026 - Versão 1.0
+
 var_n1 = 5
 var_n2 = 7
 var_s1 = '5'

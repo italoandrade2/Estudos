@@ -1,3 +1,7 @@
+# Saída de Dados - print com aspas triplas
+# Nome: Italo Andrade Costa
+# 03/03/2026 - Versão 1.0
+
 print ('''
 Quantidade de Pessoas   Diária          Diária
 no Apartamento          tipo 1(R$)      tipo2 (R$)

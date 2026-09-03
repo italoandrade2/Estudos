@@ -1,3 +1,7 @@
+# Relatório Financeiro com F-Strings
+# Nome: Italo Andrade Costa
+# 05/03/2026 - Versão 1.0
+
 # Biblioteca
 import locale
 locale.setlocale(locale.LC_ALL, 'pt-BR.UTF-8')

@@ -1,3 +1,7 @@
+# Marcador de Posição
+# Nome: Italo Andrade Costa
+# 03/03/2026 - Versão 1.0
+
 # Entrada
 v1 = int(input("Digite o primeiro valor: "))
 v2 = int(input("Digite o segundo valor: "))

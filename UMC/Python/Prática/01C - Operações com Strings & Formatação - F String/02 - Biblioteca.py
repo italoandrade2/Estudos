@@ -1,3 +1,7 @@
+# Usando biblioteca
+# Nome: Italo Andrade Costa
+# 05/03/2026 - Versão 1.0
+
 import locale
 valor = 1768
 locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')

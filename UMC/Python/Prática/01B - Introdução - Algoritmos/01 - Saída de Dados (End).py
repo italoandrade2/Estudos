@@ -1,3 +1,7 @@
+# Saída de Dados - print com parâmetro "End"
+# Nome: Italo Andrade Costa
+# 03/03/2026 - Versão 1.0
+
 print("Vamos estudar na ", end="")
 print("Python Academy")
 
