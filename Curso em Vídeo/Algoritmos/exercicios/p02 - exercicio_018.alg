@@ -10,7 +10,7 @@ inicio
     Escreva ("Qual a sua idade? ")
     Leia (idade)
 
-    Se (idade >= 18) então
+    Se (idade >= 16) então
         Escreva ("Você possui a idade mínima para votar.")
     senão
         Escreva ("Você não possui a idade mínima para votar.")

@@ -1,4 +1,4 @@
-// Exercício final
+// Análise de Vendas da Semana
 // Italo Andrade Costa
 // 26/08/2026 - Versão 1.0
 

@@ -5,7 +5,7 @@
 algoritmo "Sequências Básicas 15"
 
 var
-    dias, hora, salario: Real
+    dias, salario: Real
 inicio
     Escreva ("Digite a quantia de dias trabalhados: ")
     Leia (dias)
