@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Corrida de Personagens</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Corrida de Personagens</h1>
+  <p class="subtitle">Clique em "Iniciar" e veja qual dos dois chega primeiro ao final!</p>
+
+  <div class="panel">
+    <div class="tracks">
+      <div class="track">
+        <div class="finish-line"></div>
+        <div class="racer" id="racer1"><img src="img/flash/flash1.png" alt="Flash"></div>
+      </div>
+      <div class="track">
+        <div class="finish-line"></div>
+        <div class="racer" id="racer2"><img src="img/reverse_flash/reverse_flash1.png" alt="Reverse Flash"></div>
+      </div>
+      <div class="track">
+        <div class="finish-line"></div>
+        <div class="racer" id="racer3"><img src="img/godspeed/godspeed1.png" alt="Goodspeed"></div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="startBtn">Iniciar corrida</button>
+      <button id="resetBtn">Reiniciar</button>
+    </div>
+
+    <div class="result" id="result"></div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
