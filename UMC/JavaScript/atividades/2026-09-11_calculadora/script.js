@@ -2,6 +2,8 @@
 // Nome: Italo Andrade Costa
 // 11/09/2026
 
+// Saudação
+
 const campoNome = document.getElementById("nome");
 const botaoSaudacao = document.getElementById("btnSaudacao");
 const mensagem = document.getElementById("mensagem");
@@ -16,6 +18,7 @@ botaoSaudacao.addEventListener("click", function () {
     }
 });
 
+// Contador
 
 let contador = 0;
 
@@ -40,6 +43,7 @@ btnZerar.addEventListener("click", function () {
     numero.textContent = contador;
 });
 
+// Trocar cor
 
 const btnCor = document.getElementById("btnCor");
 const textoCor = document.getElementById("textoCor");
@@ -56,224 +60,56 @@ btnCor.addEventListener("click", function () {
     }
 });
 
-
-let calculadora = 0;
-
-let primeiroNumero;
-let operacao;
-let segundoNumero;
-
-let etapa = "primeiroNumero"
-
-const calculo = document.getElementById("calculo");
-const etapaAtual = document.getElementById("etapaAtual");
-const btnNum1 = document.getElementById("btnNum1");
-const btnNum2 = document.getElementById("btnNum2");
-const btnNum3 = document.getElementById("btnNum3");
-const btnNum4 = document.getElementById("btnNum4");
-const btnNum5 = document.getElementById("btnNum5");
-const btnNum6 = document.getElementById("btnNum6");
-const btnNum7 = document.getElementById("btnNum7");
-const btnNum8 = document.getElementById("btnNum8");
-const btnNum9 = document.getElementById("btnNum9");
-const btnNum0 = document.getElementById("btnNum0");
+// Calculadora
 
 const btnSomar = document.getElementById("btnSomar");
 const btnSubtrair = document.getElementById("btnSubtrair");
-const btnIgual = document.getElementById("btnIgual");
+const btnMultiplicar = document.getElementById("btnMultiplicar");
+const btnDividir = document.getElementById("btnDividir");
 
-btnNum1.addEventListener("click", function () {
-    if (etapa === "primeiroNumero") {
-        primeiroNumero = 1;
-        etapa = "operacao";
-        etapaAtual.textContent = "Digite a operação:"
-        calculadora = 1;
-        calculo.textContent = calculadora;
-    } else if (etapa === "segundoNumero") {
-        segundoNumero = 1;
-        etapa = "resultado";
-        calculadora = primeiroNumero + " " + operacao + " " + segundoNumero;
-        calculo.textContent = calculadora;
-    }
-});
+const campoNum1 = document.getElementById("number1");
+const campoNum2 = document.getElementById("number2");
+const resultado = document.getElementById("resultado");
 
-btnNum2.addEventListener("click", function () {
-    if (etapa === "primeiroNumero") {
-        primeiroNumero = 2;
-        etapa = "operacao";
-        etapaAtual.textContent = "Digite a operação:"
-        calculadora = 2;
-        calculo.textContent = calculadora;
-    } else if (etapa === "segundoNumero") {
-        segundoNumero = 2;
-        etapa = "resultado";
-        calculadora = primeiroNumero + " " + operacao + " " + segundoNumero;
-        calculo.textContent = calculadora;
+function pegarNumeros() {
+    const n1 = Number(campoNum1.value);
+    const n2 = Number(campoNum2.value);
+    if (campoNum1.value === "" || campoNum2.value === "") {
+        resultado.textContent = "Preencha os dois campos!";
+        return null;
     }
-});
 
-btnNum3.addEventListener("click", function () {
-    if (etapa === "primeiroNumero") {
-        primeiroNumero = 3;
-        etapa = "operacao";
-        etapaAtual.textContent = "Digite a operação:"
-        calculadora = 3;
-        calculo.textContent = calculadora;
-    } else if (etapa === "segundoNumero") {
-        segundoNumero = 3;
-        etapa = "resultado";
-        calculadora = primeiroNumero + " " + operacao + " " + segundoNumero;
-        calculo.textContent = calculadora;
-    }
-});
-
-btnNum4.addEventListener("click", function () {
-    if (etapa === "primeiroNumero") {
-        primeiroNumero = 4;
-        etapa = "operacao";
-        etapaAtual.textContent = "Digite a operação:"
-        calculadora = 4;
-        calculo.textContent = calculadora;
-    } else if (etapa === "segundoNumero") {
-        segundoNumero = 4;
-        etapa = "resultado";
-        calculadora = primeiroNumero + " " + operacao + " " + segundoNumero;
-        calculo.textContent = calculadora;
-    }
-});
-
-btnNum5.addEventListener("click", function () {
-    if (etapa === "primeiroNumero") {
-        primeiroNumero = 5;
-        etapa = "operacao";
-        etapaAtual.textContent = "Digite a operação:"
-        calculadora = 5;
-        calculo.textContent = calculadora;
-    } else if (etapa === "segundoNumero") {
-        segundoNumero = 5;
-        etapa = "resultado";
-        calculadora = primeiroNumero + " " + operacao + " " + segundoNumero;
-        calculo.textContent = calculadora;
-    }
-});
-
-btnNum6.addEventListener("click", function () {
-    if (etapa === "primeiroNumero") {
-        primeiroNumero = 6;
-        etapa = "operacao";
-        etapaAtual.textContent = "Digite a operação:"
-        calculadora = 6;
-        calculo.textContent = calculadora;
-    } else if (etapa === "segundoNumero") {
-        segundoNumero = 6;
-        etapa = "resultado";
-        calculadora = primeiroNumero + " " + operacao + " " + segundoNumero;
-        calculo.textContent = calculadora;
-    }
-});
-
-btnNum7.addEventListener("click", function () {
-    if (etapa === "primeiroNumero") {
-        primeiroNumero = 7;
-        etapa = "operacao";
-        etapaAtual.textContent = "Digite a operação:"
-        calculadora = 7;
-        calculo.textContent = calculadora;
-    } else if (etapa === "segundoNumero") {
-        segundoNumero = 7;
-        etapa = "resultado";
-        calculadora = primeiroNumero + " " + operacao + " " + segundoNumero;
-        calculo.textContent = calculadora;
-    }
-});
-
-btnNum8.addEventListener("click", function () {
-    if (etapa === "primeiroNumero") {
-        primeiroNumero = 8;
-        etapa = "operacao";
-        etapaAtual.textContent = "Digite a operação:"
-        calculadora = 8;
-        calculo.textContent = calculadora;
-    } else if (etapa === "segundoNumero") {
-        segundoNumero = 8;
-        etapa = "resultado";
-        calculadora = primeiroNumero + " " + operacao + " " + segundoNumero;
-        calculo.textContent = calculadora;
-    }
-});
-
-btnNum9.addEventListener("click", function () {
-    if (etapa === "primeiroNumero") {
-        primeiroNumero = 9;
-        etapa = "operacao";
-        etapaAtual.textContent = "Digite a operação:"
-        calculadora = 9;
-        calculo.textContent = calculadora;
-    } else if (etapa === "segundoNumero") {
-        segundoNumero = 9;
-        etapa = "resultado";
-        calculadora = primeiroNumero + " " + operacao + " " + segundoNumero;
-        calculo.textContent = calculadora;
-    }
-});
-
-btnNum0.addEventListener("click", function () {
-    if (etapa === "primeiroNumero") {
-        primeiroNumero = 0;
-        etapa = "operacao";
-        etapaAtual.textContent = "Digite a operação:"
-        calculadora = 0;
-        calculo.textContent = calculadora;
-    } else if (etapa === "segundoNumero") {
-        segundoNumero = 0;
-        etapa = "resultado";
-        calculadora = primeiroNumero + " " + operacao + " " + segundoNumero;
-        calculo.textContent = calculadora;
-    }
-});
+    return { n1, n2 };
+}
 
 btnSomar.addEventListener("click", function () {
-    if (etapa === "operacao") {
-        operacao = "+";
-        etapa = "segundoNumero";
-        etapaAtual.textContent = "Digite o segundo número:"
-        calculadora = primeiroNumero + " +";
-        calculo.textContent = calculadora;
-    }
+    const numeros = pegarNumeros();
+    if (numeros === null) return;
+    
+    resultado.textContent = "Resultado: " + (numeros.n1 + numeros.n2);
 });
 
 btnSubtrair.addEventListener("click", function () {
-    if (etapa === "operacao") {
-        operacao = "-";
-        etapa = "segundoNumero"
-        etapaAtual.textContent = "Digite o segundo número:"
-        calculadora = primeiroNumero + " -";
-        calculo.textContent = calculadora;
+    const numeros = pegarNumeros();
+    if (numeros === null) return;
+    
+    resultado.textContent = "Resultado: " + (numeros.n1 - numeros.n2);
+});
+
+btnMultiplicar.addEventListener("click", function () {
+    const numeros = pegarNumeros();
+    if (numeros === null) return;
+    
+    resultado.textContent = "Resultado: " + (numeros.n1 * numeros.n2);
+});
+
+btnDividir.addEventListener("click", function () {
+    const numeros = pegarNumeros();
+    if (numeros === null) return;
+    
+    if (numeros.n2 === 0) {
+        resultado.textContent = "Resultado: Erro! Impossível dividir por zero."
+    } else {
+        resultado.textContent = "Resultado: " + (numeros.n1 / numeros.n2);
     };
 });
-
-btnIgual.addEventListener("click", function () {
-    if (etapa === "resultado") {
-        etapaAtual.textContent = "Resultado:"
-
-        if (operacao === "+") {
-            soma = primeiroNumero + segundoNumero;
-            calculadora = primeiroNumero + " " + operacao + " " + segundoNumero + " = " + soma;
-            calculo.textContent = calculadora;
-            etapa = "finalizado"
-        } else {
-            subtracao = primeiroNumero - segundoNumero;
-            calculadora = primeiroNumero + " " + operacao + " " + segundoNumero + " = " + subtracao;
-            calculo.textContent = calculadora;
-            etapa = "finalizado"
-        }
-    }
-    numero.textContent = contador;
-});
-
-btnReiniciar.addEventListener("click", function () {
-    calculadora = 0;
-    calculo.textContent = calculadora;
-    etapa = "primeiroNumero"
-    etapaAtual.textContent = "Digite o primeiro número:"
-})
