@@ -1,4 +1,4 @@
-# Aula 04 - Desafio 3 - Soma
+# Aula 06 - Desafio 3 - Soma
 # Italo Andrade Costa
 # 17/09/2026
 
@@ -7,4 +7,4 @@ n2 = int(input('Segundo número: '))
 
 soma = n1 + n2
 
-print('A soma é', soma)
+print(f'A soma é {soma}')
