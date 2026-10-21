@@ -6,6 +6,7 @@
 
 const campoNome = document.getElementById("nome");
 const botaoSaudacao = document.getElementById("btnSaudacao");
+const botaoResetar = document.getElementById("btnResetar");
 const mensagem = document.getElementById("mensagem");
 
 botaoSaudacao.addEventListener("click", function () {
@@ -18,6 +19,14 @@ botaoSaudacao.addEventListener("click", function () {
     }
 });
 
+botaoResetar.addEventListener("click", function () {
+    const nome = campoNome.value;
+
+    if (nome != "") {
+        mensagem.textContent = "Digite seu nome e clique no botão."
+    }
+})
+
 // Contador
 
 let contador = 0;
@@ -28,19 +37,27 @@ const btnAumentar = document.getElementById("btnAumentar");
 const btnDiminuir = document.getElementById("btnDiminuir");
 const btnZerar = document.getElementById("btnZerar");
 
+function atualizarBotoes() {
+    btnAumentar.disabled = contador >= 10;
+    btnDiminuir.disabled = contador <= 0;
+}
+
 btnAumentar.addEventListener("click", function () {
     contador++;
     numero.textContent = contador;
+    atualizarBotoes();
 });
 
 btnDiminuir.addEventListener("click", function () {
     contador--;
     numero.textContent = contador;
+    atualizarBotoes();
 });
 
 btnZerar.addEventListener("click", function () {
     contador = 0;
     numero.textContent = contador;
+    atualizarBotoes();
 });
 
 // Trocar cor
@@ -48,15 +65,19 @@ btnZerar.addEventListener("click", function () {
 const btnCor = document.getElementById("btnCor");
 const textoCor = document.getElementById("textoCor");
 
-let cor = false;
+const cores = ["black", "red", "lime", "blue", "yellow", "cyan", "magenta", "silver"];
+index = 0;
+let cor = "black";
 
 btnCor.addEventListener("click", function () {
-    if (cor === false) {
-        textoCor.style.color = "blue";
-        cor = true;
+    if (cor === "silver") {
+        index = 0;
+        cor = cores[index];
+        textoCor.style.color = cor;
     } else {
-        textoCor.style.color = "red";
-        cor = false;
+        index++;
+        cor = cores[index];
+        textoCor.style.color = cor;
     }
 });
 
@@ -66,6 +87,7 @@ const btnSomar = document.getElementById("btnSomar");
 const btnSubtrair = document.getElementById("btnSubtrair");
 const btnMultiplicar = document.getElementById("btnMultiplicar");
 const btnDividir = document.getElementById("btnDividir");
+const btnLimpar = document.getElementById("btnLimpar");
 
 const campoNum1 = document.getElementById("number1");
 const campoNum2 = document.getElementById("number2");
@@ -88,6 +110,15 @@ btnSomar.addEventListener("click", function () {
     
     resultado.textContent = "Resultado: " + (numeros.n1 + numeros.n2);
 });
+
+document.addEventListener("keydown", function () {
+    if (event.key === "Enter") {
+        const numeros = pegarNumeros();
+        if (numeros === null) return;
+    
+        resultado.textContent = "Resultado: " + (numeros.n1 + numeros.n2);
+    }
+})
 
 btnSubtrair.addEventListener("click", function () {
     const numeros = pegarNumeros();
@@ -113,3 +144,9 @@ btnDividir.addEventListener("click", function () {
         resultado.textContent = "Resultado: " + (numeros.n1 / numeros.n2);
     };
 });
+
+btnLimpar.addEventListener("click", function () {
+    campoNum1.value = "";
+    campoNum2.value = "";
+    resultado.textContent = "Resultado: -";
+})

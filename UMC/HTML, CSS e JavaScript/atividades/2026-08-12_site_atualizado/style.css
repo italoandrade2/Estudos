@@ -1,0 +1,28 @@
+/* Reestruturando HTML com Semântica */
+/* Nome: Italo Andrade Costa */
+/* 12/08/2026 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #eee;
+    color: #573b8a;
+    width: 100%;
+    padding: 20px;
+}
+
+main {
+    background: linear-gradient(#0f0c29, #302b63, #0f0c29);
+    min-height: 100vh;
+    padding: 40px;
+}

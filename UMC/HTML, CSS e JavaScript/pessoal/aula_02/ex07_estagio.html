@@ -1,0 +1,88 @@
+<!-- Formulário de Estágio -->
+<!-- Nome: Italo Andrade Costa -->
+<!-- 02/10/2026 -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Estágio</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Estágio</h1>
+        <p>Preencha os dados abaixo para analisarmos sua candidatura.</p>
+    </header>
+
+    <hr>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend><h2>Dados Pessoais:</h2></legend>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                <br><br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                <br><br>
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="(xx) xxxxx-xxxx" pattern="\([1-9]{2}\)\s?[2-9][0-9]{3,4}-[0-9]{4}" required>
+            </fieldset>
+            <fieldset>
+                <legend><h2>Formação:</h2></legend>
+                <label for="curso">Curso:</label>
+                <input type="text" id="curso" name="curso" placeholder="Digite seu curso" required>
+                <br><br>
+                <label for="instituicao">Instituição:</label>
+                <input type="text" id="instituicao" name="instituicao" placeholder="Instituição de ensino" required>
+                <br><br>
+                <label for="semestre">Semestre:</label>
+                <input type="number" id="semestre" name="semestre" placeholder="Semestre atual do curso" required>
+            </fieldset>
+            <fieldset>
+                <legend><h2>Estágio</h2></legend>
+                <h3>Área de interesse:</h3>
+                <input type="radio" id="backend" name="area" value="BackEnd">
+                <label for="backend">Desenvolvimento Back-End</label>
+                <br>
+                <input type="radio" id="frontend" name="area" value="FrontEnd">
+                <label for="frontend">Desenvolvimento Front-End</label>
+                <br>
+                <input type="radio" id="analise" name="area" value="AnaliseDados">
+                <label for="analise">Análise de Dados</label>
+                <br>
+                <input type="radio" id="engenharia" name="area" value="EngenhariaDados">
+                <label for="engenharia">Engenharia de Dados</label>
+                
+                <h3>Tecnologias conhecidas:</h3>
+                <input type="checkbox" id="python" name="python">
+                <label for="python">Python</label>
+                <br>
+                <input type="checkbox" id="sql" name="sql">
+                <label for="sql">SQL</label>
+                <br>
+                <input type="checkbox" id="html" name="html">
+                <label for="html">HTML</label>
+                <br>
+                <input type="checkbox" id="css" name="css">
+                <label for="css">CSS</label>
+                <br>
+                <input type="checkbox" id="javascript" name="javascript">
+                <label for="javascript">JavaScript</label>
+                <br>
+                <input type="checkbox" id="git" name="git">
+                <label for="git">Git</label>
+
+                <h3>Apresente-se:</h3>
+                <textarea rows="5" cols="23" placeholder="Escreva uma apresentação pessoal" required></textarea> 
+            </fieldset>
+            <br>
+            <button type="submit">Enviar candidatura</button>
+        </form>
+    </main>
+
+    <footer>©2026 - Italo Andrade Costa (italoandradecosta5@gmail.com)</footer>
+</body>
+</html>

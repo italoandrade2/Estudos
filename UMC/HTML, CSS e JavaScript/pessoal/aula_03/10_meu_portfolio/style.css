@@ -1,0 +1,86 @@
+/* Meu Portfólio */
+/* Nome: Italo Andrade Costa */
+/* 02/10/2026 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin: 0%;
+    text-align: center;
+}
+
+header {
+    background-color: #003f88;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #fe8700;
+    border-radius: 10px;
+}
+
+main {
+    background-color: #f2f2f2;
+    color: #003f88;
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+article {
+    background-color: #003f88;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+#adicional a {
+    text-decoration: none;
+    color: #003f88;
+    margin: 30px;
+    padding: 10px;
+}
+
+#adicional a:hover {
+    background-color: #fe8700;
+    color: white;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #003f88;
+    color: white;
+    padding: 20px;
+}

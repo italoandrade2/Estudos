@@ -1,0 +1,67 @@
+/* Minhas Tecnologias */
+/* Nome: Italo Andrade Costa */
+/* 02/10/2026 */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    color: red;
+    padding: 15px;
+    font-weight: bold;
+}
+
+header p {
+    margin-bottom: 50px;
+}
+
+nav a {
+    border: 2px, solid, red;
+    margin: 10px;
+    padding: 10px;
+    color: grey;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: red;
+    color: white;
+}
+
+main p {
+    color: grey;
+}
+
+section {
+    background-color: #535353;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.destaque {
+    color: white;
+    background-color: red;
+    border: 1px, solid, white;
+    margin: 20px;
+}
+
+.destaque p {
+    color: white;
+}
+
+.tecnologia {
+    color: black;
+    background-color: white;
+    border: 1px, solid, grey;
+    margin: 20px;
+}
+
+footer {
+    background-color: #535353;
+    padding: 30px;
+    color: white;
+}

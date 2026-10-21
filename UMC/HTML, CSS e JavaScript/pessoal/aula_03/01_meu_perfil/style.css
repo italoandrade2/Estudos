@@ -1,0 +1,48 @@
+/* Meu Perfil de Desenvolvedor */
+/* Nome: Italo Andrade Costa */
+/* 02/10/2026 */
+
+body {
+    background-color: blueviolet;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: whitesmoke;
+    padding: 15px;
+    color: blueviolet;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+section {
+    background-color: rgb(162, 80, 238);
+    margin: 5px;
+    padding: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:hover {
+    color: red;
+}
+
+footer {
+    background-color: whitesmoke;
+    padding: 15px;
+    color: blueviolet;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}

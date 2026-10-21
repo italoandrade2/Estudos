@@ -50,5 +50,3 @@ const funcionariosFiltrados = salariosAltos.map((usuario, index) => {
 funcionariosFiltrados.forEach(funcionario => {
     console.log(funcionario);
 });
-
-

@@ -1,0 +1,24 @@
+/* Exemplo de Estrutura HTML com CSS */
+/* Nome: Italo Andrade Costa */
+/* 02/10/2026 */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.card {
+    background-color: white;
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
