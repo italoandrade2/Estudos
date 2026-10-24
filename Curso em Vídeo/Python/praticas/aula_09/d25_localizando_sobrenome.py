@@ -2,6 +2,6 @@
 # Italo Andrade Costa
 # 25/09/2026
 
-nome = input('Digite seu nome completo: ')
+nome = input('Digite seu nome completo: ').title()
 
 print('Possui "Silva" no nome?:', 'Silva' in nome)
