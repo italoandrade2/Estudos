@@ -2,7 +2,7 @@
 # Italo Andrade Costa
 # 25/09/2026
 
-cid = input('Digite o nome da cidade: ')
+cid = input('Digite o nome da cidade: ').title()
 
 sep = cid.split()
 
