@@ -1,6 +1,6 @@
 # Aula 09 - Desafio 26 - Dissecando uma Frase
 # Italo Andrade Costa
-# 25/06/2026
+# 25/09/2026
 
 frase = input('Digite uma frase: ')
 

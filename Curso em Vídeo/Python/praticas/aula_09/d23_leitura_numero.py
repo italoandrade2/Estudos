@@ -1,6 +1,6 @@
-# Aula 09 - Desafio 22 - Dissecando um Nome
+# Aula 09 - Desafio 22 - Lendo um Número
 # Italo Andrade Costa
-# 25/06/2026
+# 25/09/2026
 
 num = input('Digite um número entre 0 a 9999: ')
 

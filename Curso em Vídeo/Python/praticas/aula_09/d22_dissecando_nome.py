@@ -1,6 +1,6 @@
 # Aula 09 - Desafio 22 - Dissecando um Nome
 # Italo Andrade Costa
-# 25/06/2026
+# 25/09/2026
 
 nomec = input('Digite seu nome completo: ')
 

@@ -1,6 +1,6 @@
 # Aula 09 - Desafio 24 - Localizando nome de cidade
 # Italo Andrade Costa
-# 25/06/2026
+# 25/09/2026
 
 cid = input('Digite o nome da cidade: ')
 
