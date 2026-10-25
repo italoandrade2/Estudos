@@ -1,6 +1,6 @@
 # Aula 10 - Exercício 35 - Analisando Triângulo v1.0
 # Italo Andrade Costa
-# 24/10/2026
+# 25/10/2026
 
 print('-=' * 20)
 print('Analisador de Triângulos')
